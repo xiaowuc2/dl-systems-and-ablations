@@ -1,0 +1,13 @@
+model:
+  n_layer: 6
+  n_head: 6
+  n_kv_head: 6
+  n_embd: 384
+  norm_type: layernorm
+  mlp_type: gelu
+  use_rope: false
+training:
+  batch_size: 32
+  lr: 6.0e-4
+  max_steps: 2000
+  seed: 42
